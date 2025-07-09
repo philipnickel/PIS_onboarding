@@ -14,13 +14,16 @@ This is a Quarto-based documentation project for the Python Installation Support
 ### Local Development
 
 ```bash
-# Render all formats
-quarto render
+# Render main formats (HTML, PDF, DOCX)
+quarto render index.qmd --to html
+quarto render index.qmd --to pdf  
+quarto render index.qmd --to docx
 
-# Render specific format
-quarto render --to html
-quarto render --to pdf
-quarto render --to docx
+# Render slides separately (due to LaTeX conflicts)
+quarto render index.qmd --to beamer
+
+# Render all main formats at once (excludes beamer)
+quarto render --to html,pdf,docx
 
 # Preview in browser
 quarto preview
@@ -32,6 +35,7 @@ After rendering, you'll find:
 - `docs/index.html` - Web version
 - `docs/index.pdf` - PDF version
 - `docs/index.docx` - Word document version
+- `docs/index.beamer.pdf` - Beamer slides (from index.qmd)
 
 ### GitHub Pages
 

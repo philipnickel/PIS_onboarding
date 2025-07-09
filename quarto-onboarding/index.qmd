@@ -1,5 +1,8 @@
 ---
 title: "Python Installation Support - Onboarding Guide"
+subtitle: "Team Onboarding Guide"
+author: "Python Support Team"
+date: today
 format: 
   html:
     toc: true

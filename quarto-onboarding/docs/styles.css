@@ -1,27 +1,92 @@
-/* Custom styles for the onboarding guide */
+/* Sphinx-like theme for the onboarding guide */
+:root {
+  --sphinx-bg: #fcfcfc;
+  --sphinx-sidebar-bg: #f8f9fa;
+  --sphinx-border: #e1e4e8;
+  --sphinx-text: #24292e;
+  --sphinx-link: #0366d6;
+  --sphinx-heading: #1f2328;
+  --sphinx-code-bg: #f6f8fa;
+}
+
+/* Dark mode variables */
+[data-bs-theme="dark"] {
+  --sphinx-bg: #1a1a1a;
+  --sphinx-sidebar-bg: #2d2d2d;
+  --sphinx-border: #404040;
+  --sphinx-text: #e6e6e6;
+  --sphinx-link: #58a6ff;
+  --sphinx-heading: #f0f0f0;
+  --sphinx-code-bg: #2d2d2d;
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", sans-serif;
+  font-size: 14px;
   line-height: 1.6;
+  background-color: var(--sphinx-bg);
+  color: var(--sphinx-text);
 }
 
-.quarto-title-banner {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+/* Sidebar styling */
+.sidebar {
+  background-color: var(--sphinx-sidebar-bg);
+  border-right: 1px solid var(--sphinx-border);
 }
 
-h1, h2, h3 {
-  color: #2c3e50;
-}
-
-.callout-tip {
-  border-left: 4px solid #3498db;
-  background-color: #f8f9fa;
+.sidebar .sidebar-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: var(--sphinx-heading);
   padding: 1rem;
-  margin: 1rem 0;
 }
 
+/* Main content area */
+.quarto-title-banner {
+  background-color: var(--sphinx-sidebar-bg);
+  border-bottom: 1px solid var(--sphinx-border);
+  color: var(--sphinx-heading);
+  padding: 2rem 0;
+}
+
+.quarto-title-banner h1 {
+  font-size: 2.2em;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Headers with sphinx-like styling */
+h1 {
+  color: var(--sphinx-heading);
+  font-size: 2em;
+  font-weight: normal;
+  border-bottom: 1px solid var(--sphinx-border);
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  color: var(--sphinx-heading);
+  font-size: 1.5em;
+  font-weight: normal;
+  border-bottom: 1px solid var(--sphinx-border);
+  padding-bottom: 0.3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: var(--sphinx-heading);
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Links */
 a {
-  color: #3498db;
+  color: var(--sphinx-link);
   text-decoration: none;
 }
 
@@ -29,8 +94,128 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Code blocks */
 code {
-  background-color: #f4f4f4;
+  background-color: var(--sphinx-code-bg);
+  color: var(--sphinx-text);
   padding: 0.2rem 0.4rem;
   border-radius: 3px;
+  font-family: "Courier New", "Courier", monospace;
+  font-size: 0.9em;
+}
+
+pre {
+  background-color: var(--sphinx-code-bg);
+  border: 1px solid var(--sphinx-border);
+  border-radius: 3px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+/* TOC styling */
+.toc-left {
+  border-right: 1px solid var(--sphinx-border);
+}
+
+.toc-left ul {
+  padding-left: 1rem;
+}
+
+.toc-left li {
+  margin-bottom: 0.3rem;
+}
+
+.toc-left a {
+  color: var(--sphinx-text);
+  font-size: 0.9em;
+}
+
+.toc-left a:hover {
+  color: var(--sphinx-link);
+}
+
+/* Content area */
+.content {
+  max-width: none;
+  padding: 2rem;
+  background-color: var(--sphinx-bg);
+  border-left: 1px solid var(--sphinx-border);
+}
+
+/* Admonitions/callouts */
+.callout {
+  border: 1px solid var(--sphinx-border);
+  border-radius: 3px;
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: var(--sphinx-code-bg);
+}
+
+.callout-tip {
+  border-left: 4px solid #17a2b8;
+  background-color: #f8f9fa;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+th, td {
+  border: 1px solid var(--sphinx-border);
+  padding: 0.5rem;
+  text-align: left;
+}
+
+th {
+  background-color: var(--sphinx-code-bg);
+  font-weight: bold;
+}
+
+/* Navigation */
+.navbar {
+  background-color: var(--sphinx-sidebar-bg);
+  border-bottom: 1px solid var(--sphinx-border);
+}
+
+.navbar-brand {
+  color: var(--sphinx-heading) !important;
+  font-weight: bold;
+}
+
+/* Dark mode specific overrides */
+[data-bs-theme="dark"] .quarto-title-banner {
+  background-color: var(--sphinx-sidebar-bg);
+  border-bottom: 1px solid var(--sphinx-border);
+}
+
+[data-bs-theme="dark"] .sidebar {
+  background-color: var(--sphinx-sidebar-bg);
+}
+
+[data-bs-theme="dark"] .navbar {
+  background-color: var(--sphinx-sidebar-bg);
+}
+
+[data-bs-theme="dark"] th {
+  background-color: var(--sphinx-code-bg);
+}
+
+[data-bs-theme="dark"] .callout {
+  background-color: var(--sphinx-code-bg);
+}
+
+[data-bs-theme="dark"] .callout-tip {
+  background-color: rgba(23, 162, 184, 0.1);
 }
