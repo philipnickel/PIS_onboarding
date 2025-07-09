@@ -4,62 +4,76 @@
     "href": "index.html",
     "title": "Python Installation Support - Onboarding Guide",
     "section": "",
-    "text": "We’re thrilled to have you on board. This guide is designed to help you get started smoothly, understand our support philosophy, tools, workflows, and key expectations.\n\n\nSupport Function Mission: We aim to provide prompt, dependable, and compassionate support to our users.\nYour Role: - Respond to requests, inquiries or tickets via [physical presence/chat/support portal]. - Troubleshoot technical or operational issues. - Document solutions and processes. - Collaborate with team members to resolve issues. - Help maintain and improve our support knowledge base. - Teamwork on various projects.\n\n\n\nAccounts & Access:\n\nCommunication tools (e.g., Discord, Outlook): https://discord.gg/CSp6xS22\nTicketing system: https://pythonsupport-rt.dtu.dk/rt/\nKnowledge base access: https://pythonsupport.dtu.dk/commonproblems/index.html\nTime based registration documents: https://dtudk.sharepoint.com/:f:/r/sites/PythonInstallationSupport/Delte%20dokumenter/Students%20documents?csf=1&web=1&e=LVnQbU\n\nIntroduction:\n\nAttend a team kick-off in August 2025.\nIntro with your direct manager and with the team.\n\nRequired Training:\n\nProduct walkthrough (internal tools, user-facing systems)\nUsing the ticketing system and Discord\n\n\n\n\n\nTicket management: https://pythonsupport-rt.dtu.dk/rt/\nDiscord - Internal communication: https://discord.gg/CSp6xS22\nPython Installation Support site: https://pythonsupport.dtu.dk/\nGithub – team documentation and programming: https://github.com/dtudk/pythonsupport-page/\nTeams – alternative docs, shift spreadsheets: Students documents\nProgramming course: https://02002.compute.dtu.dk/\n\n\n\n\n\nTicket Intake: Regularly check for new requests, assign and acknowledge them within your shift.\nTriage & Troubleshoot: Identify the root issue and check documentation before escalating.\nResolution: Provide solutions or workarounds and follow up to confirm resolution.\nStudent hands-on: Guide the user in solving the issue(s). Let the user do the work.\n\n\n\n\nYou are expected to:\n\nDocument new findings and solutions.\nAlternatively, report your findings in Discord.\nSuggest edits to existing articles.\nCreate internal guides when gaps are identified.\n\n💡 Tip: If you solve a problem more than twice, document it.\n\n\n\n\nEmpathy first: Every interaction matters.\nBe curious: Ask questions, seek clarity.\nOwn it: Take initiative, follow through.\nCollaborate: Work openly with team members.\nImprove constantly: be proactive, suggest better processes and tools to enhance efficiency.\n\n\n\n\n\nYour shift partners: Assigned for support and collaboration\nTeam Lead: For daily questions and prioritisation\nSupport Discord Channel: Quick team-wide help\nKnowledge Base: [Link]\n\n\n\n\nYou should:\n\nBe confident using all core tools\nManage and resolve tickets\nBe familiar with team workflows"
+    "text": "We’re thrilled to have you on board. This guide is designed to help you get started smoothly, understand our support philosophy, tools, workflows, and key expectations."
   },
   {
     "objectID": "index.html#overview",
     "href": "index.html#overview",
     "title": "Python Installation Support - Onboarding Guide",
-    "section": "",
-    "text": "Support Function Mission: We aim to provide prompt, dependable, and compassionate support to our users.\nYour Role: - Respond to requests, inquiries or tickets via [physical presence/chat/support portal]. - Troubleshoot technical or operational issues. - Document solutions and processes. - Collaborate with team members to resolve issues. - Help maintain and improve our support knowledge base. - Teamwork on various projects."
-  },
-  {
-    "objectID": "index.html#getting-set-up",
-    "href": "index.html#getting-set-up",
-    "title": "Python Installation Support - Onboarding Guide",
-    "section": "",
-    "text": "Accounts & Access:\n\nCommunication tools (e.g., Discord, Outlook): https://discord.gg/CSp6xS22\nTicketing system: https://pythonsupport-rt.dtu.dk/rt/\nKnowledge base access: https://pythonsupport.dtu.dk/commonproblems/index.html\nTime based registration documents: https://dtudk.sharepoint.com/:f:/r/sites/PythonInstallationSupport/Delte%20dokumenter/Students%20documents?csf=1&web=1&e=LVnQbU\n\nIntroduction:\n\nAttend a team kick-off in August 2025.\nIntro with your direct manager and with the team.\n\nRequired Training:\n\nProduct walkthrough (internal tools, user-facing systems)\nUsing the ticketing system and Discord"
-  },
-  {
-    "objectID": "index.html#tools-used",
-    "href": "index.html#tools-used",
-    "title": "Python Installation Support - Onboarding Guide",
-    "section": "",
-    "text": "Ticket management: https://pythonsupport-rt.dtu.dk/rt/\nDiscord - Internal communication: https://discord.gg/CSp6xS22\nPython Installation Support site: https://pythonsupport.dtu.dk/\nGithub – team documentation and programming: https://github.com/dtudk/pythonsupport-page/\nTeams – alternative docs, shift spreadsheets: Students documents\nProgramming course: https://02002.compute.dtu.dk/"
+    "section": "Overview",
+    "text": "Overview\n\n\n\n\n\n\nSupport Function Mission\n\n\n\nWe aim to provide prompt, dependable, and compassionate support to our users.\n\n\n\nYour Responsibilities\nAs a Python Installation Support team member, you will:\n\nRespond to requests, inquiries or tickets via [physical presence/chat/support portal]\nTroubleshoot technical or operational issues\nDocument solutions and processes\nCollaborate with team members to resolve issues\nHelp maintain and improve our support knowledge base\nParticipate in teamwork on various projects"
   },
   {
     "objectID": "index.html#support-workflow",
     "href": "index.html#support-workflow",
     "title": "Python Installation Support - Onboarding Guide",
-    "section": "",
-    "text": "Ticket Intake: Regularly check for new requests, assign and acknowledge them within your shift.\nTriage & Troubleshoot: Identify the root issue and check documentation before escalating.\nResolution: Provide solutions or workarounds and follow up to confirm resolution.\nStudent hands-on: Guide the user in solving the issue(s). Let the user do the work."
+    "section": "Support Workflow",
+    "text": "Support Workflow\n\nThe 4-Step Process\n\nTicket Intake\n\nRegularly check for new requests\nAssign and acknowledge them within your shift\n\nTriage & Troubleshoot\n\nIdentify the root issue\nCheck documentation before escalating\n\nResolution\n\nProvide solutions or workarounds\nFollow up to confirm resolution\n\nStudent Hands-on\n\nGuide the user in solving the issue(s)\nLet the user do the work"
   },
   {
     "objectID": "index.html#documentation-knowledge-sharing",
     "href": "index.html#documentation-knowledge-sharing",
     "title": "Python Installation Support - Onboarding Guide",
-    "section": "",
-    "text": "You are expected to:\n\nDocument new findings and solutions.\nAlternatively, report your findings in Discord.\nSuggest edits to existing articles.\nCreate internal guides when gaps are identified.\n\n💡 Tip: If you solve a problem more than twice, document it."
+    "section": "Documentation & Knowledge Sharing",
+    "text": "Documentation & Knowledge Sharing\n\nYour Responsibilities\n\nDocument new findings and solutions\nReport your findings in Discord\nSuggest edits to existing articles\nCreate internal guides when gaps are identified\n\n\n\n\n\n\n\nGolden Rule\n\n\n\nIf you solve a problem more than twice, document it."
   },
   {
     "objectID": "index.html#team-values",
     "href": "index.html#team-values",
     "title": "Python Installation Support - Onboarding Guide",
-    "section": "",
-    "text": "Empathy first: Every interaction matters.\nBe curious: Ask questions, seek clarity.\nOwn it: Take initiative, follow through.\nCollaborate: Work openly with team members.\nImprove constantly: be proactive, suggest better processes and tools to enhance efficiency."
+    "section": "Team Values",
+    "text": "Team Values\n\n\n\n\n\n\nOur Core Principles\n\n\n\n\nEmpathy first: Every interaction matters\nBe curious: Ask questions, seek clarity\nOwn it: Take initiative, follow through\nCollaborate: Work openly with team members\nImprove constantly: Be proactive, suggest better processes and tools"
+  },
+  {
+    "objectID": "index.html#getting-set-up",
+    "href": "index.html#getting-set-up",
+    "title": "Python Installation Support - Onboarding Guide",
+    "section": "Getting Set Up",
+    "text": "Getting Set Up\n\nAccounts & Access\nYou’ll need access to these essential systems:\n\n\n\nSystem\nPurpose\nLink\n\n\n\n\nDiscord\nInternal communication\nhttps://discord.gg/CSp6xS22\n\n\nRT Ticketing\nTicket management\nhttps://pythonsupport-rt.dtu.dk/rt/\n\n\nKnowledge Base\nCommon problems & solutions\nhttps://pythonsupport.dtu.dk/commonproblems/index.html\n\n\nSharePoint\nDocuments & time registration\nStudents documents\n\n\n\n\n\nIntroduction Process\n\n\n\n\n\n\nKey Meetings\n\n\n\n\nTeam kick-off in August 2025\nOne-on-one with your direct manager\nTeam introductions with all members\n\n\n\n\n\nRequired Training\nBefore you start, you’ll complete training on:\n\nProduct walkthrough (internal tools, user-facing systems)\nUsing the ticketing system and Discord\nDTU FUSION time registration system setup and usage"
+  },
+  {
+    "objectID": "index.html#tools-systems",
+    "href": "index.html#tools-systems",
+    "title": "Python Installation Support - Onboarding Guide",
+    "section": "Tools & Systems",
+    "text": "Tools & Systems\n\nPrimary Tools\n\n\n\nTool\nPurpose\nAccess\n\n\n\n\nRT Ticketing\nTicket management\nhttps://pythonsupport-rt.dtu.dk/rt/\n\n\nDiscord\nInternal communication\nhttps://discord.gg/CSp6xS22\n\n\nSupport Website\nMain support portal\nhttps://pythonsupport.dtu.dk/\n\n\nGitHub\nDocumentation & code\nhttps://github.com/dtudk/pythonsupport-page/\n\n\nTeams/SharePoint\nDocuments & schedules\nStudents documents\n\n\nCourse Reference\nProgramming materials\nhttps://02002.compute.dtu.dk/\n\n\nDTU FUSION\nTime registration system\nAccess via DTU Inside"
+  },
+  {
+    "objectID": "index.html#dtu-fusion-time-registration-system",
+    "href": "index.html#dtu-fusion-time-registration-system",
+    "title": "Python Installation Support - Onboarding Guide",
+    "section": "DTU FUSION Time Registration System",
+    "text": "DTU FUSION Time Registration System\n\n\n\n\n\n\nAbout DTU FUSION\n\n\n\nDTU FUSION serves as the central time tracking platform for all student workers at the university. This system is mandatory for recording work hours and ensures compliance with labor regulations.\n\n\n\nHow to Register Your Hours\nFollow these steps to record your working hours in FUSION:\n\nLog into FUSION\n\nNavigate to: https://efzu.fa.em2.oraclecloud.com/fscmUI/faces/FuseWelcome\n\nAccess Time Sheet\n\nGo to ‘Time and Absence’ to edit your current time sheet\n\nRegister Working Hours\n\nPick a day to register your total working hours for the month\nCalculate: Number of working days × 1.8 hours (for normal contracts)\n\nRegister Free Days\n\nRegister two free days with 1.8 hours each\n\nSubmit Timesheet\n\nReview and submit your completed timesheet\n\n\n\n\n\n\n\n\nIMPORTANT: Monthly Deadline\n\n\n\nYou must register your hours before the end of the month. Otherwise you will get an email from HR requiring you to do it.\n\n\n\n\n\n\n\n\nQuick Reference\n\n\n\nYou can check the number of working days for any month at: https://ugenr.dk/arbejdsdage\nRemember: Subtract 2 from the total to account for your two free days per month.\n\n\n\n\nGetting Help\nIf you need assistance with FUSION, contact: - Your colleagues during shifts - Your direct supervisor - HR support for technical issues"
+  },
+  {
+    "objectID": "index.html#practical-guidelines",
+    "href": "index.html#practical-guidelines",
+    "title": "Python Installation Support - Onboarding Guide",
+    "section": "Practical Guidelines",
+    "text": "Practical Guidelines\n\nDaily Tasks\n\n\n\n\n\n\nEvery Shift\n\n\n\n\nCheck RT Ticketing System for new support requests\nMonitor Discord channels for team communications, updates and questions from students\nFollow the 4-step support workflow for all user interactions\nDocument solutions as you resolve repeated issues (and notify the rest of the team on discord)\n\n\n\n\n\nWeekly Tasks\n\n\n\n\n\n\nEvery Week\n\n\n\n\nReview shift schedules on Discord for any changes and updates\nCheck team announcements in Discord for updates\n\n\n\n\n\nMonthly Tasks\n\n\n\n\n\n\nBefore Month End\n\n\n\n\nRegister hours in DTU FUSION (deadline: end of month)\nRegister personal working hours on sharepoint"
   },
   {
     "objectID": "index.html#where-to-get-help",
     "href": "index.html#where-to-get-help",
     "title": "Python Installation Support - Onboarding Guide",
-    "section": "",
-    "text": "Your shift partners: Assigned for support and collaboration\nTeam Lead: For daily questions and prioritisation\nSupport Discord Channel: Quick team-wide help\nKnowledge Base: [Link]"
+    "section": "Where to Get Help",
+    "text": "Where to Get Help\n\n\n\nContact\nPurpose\nWhen to Use\n\n\n\n\nShift Partners\nSupport & collaboration\nDuring your shift\n\n\nTeam Lead\nDaily questions & priorities\nRegular guidance\n\n\nDiscord Channel\nQuick team-wide help\nImmediate assistance\n\n\nKnowledge Base\nSelf-service resources\nResearch & learning"
   },
   {
     "objectID": "index.html#after-30-days",
     "href": "index.html#after-30-days",
     "title": "Python Installation Support - Onboarding Guide",
-    "section": "",
-    "text": "You should:\n\nBe confident using all core tools\nManage and resolve tickets\nBe familiar with team workflows"
+    "section": "After 30 Days…",
+    "text": "After 30 Days…\n\nSuccess Milestones\nBy the end of your first month, you should be able to:\n\nConfidently use all core tools\nIndependently manage and resolve tickets\nBe familiar with team workflows\nFeel comfortable asking for help when needed\n\n\nWelcome to the team!"
   }
 ]
