@@ -1,0 +1,36 @@
+/* Custom styles for the onboarding guide */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+}
+
+.quarto-title-banner {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+.callout-tip {
+  border-left: 4px solid #3498db;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  background-color: #f4f4f4;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+}
