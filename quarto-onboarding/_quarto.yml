@@ -3,11 +3,18 @@ project:
   output-dir: docs
 
 website:
-  title: "Python Installation Support - Onboarding Guide"
+  title: "Python Installation Support - Onboarding and Practicals"
   navbar:
+    pinned: true
     left:
-      - href: index.qmd
+      - href: contents/index.qmd
         text: Home
+      - href: contents/your-role.qmd
+        text: "Your Role in the Team"
+      - href: contents/introduction-process.qmd
+        text: "Introduction Process"
+      - href: contents/tools-practicals.qmd
+        text: "Tools & Practicals"
 
 format:
   html:
@@ -23,6 +30,4 @@ format:
     smooth-scroll: true
   pdf:
     documentclass: scrreprt
-    toc: true
-  docx:
     toc: true
