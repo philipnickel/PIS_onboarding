@@ -25,9 +25,9 @@ This repository contains the onboarding guide for Python Installation Support te
 ```
 quarto-onboarding/
 ├── _quarto.yml                   # Quarto configuration
+├── index.qmd                     # Welcome page and navigation guide
 ├── complete-guide.qmd            # Combined PDF version of all content
 ├── contents/                     # Individual content files
-│   ├── index.qmd                     # Welcome page and navigation guide
 │   ├── your-role.qmd                 # Team responsibilities and workflow
 │   ├── introduction-process.qmd      # Getting started and training
 │   ├── tools-practicals.qmd         # Daily tools and procedures

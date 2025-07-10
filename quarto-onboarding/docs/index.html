@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<head>
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
 
-<meta charset="utf-8" />
-<meta name="generator" content="quarto-1.6.39" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<meta name="author" content="Python Support Team">
+<meta name="dcterms.date" content="2025-07-10">
 
-<meta name="author" content="Python Support Team" />
-<meta name="dcterms.date" content="2025-07-10" />
-
-<title>Introduction Process – Python Installation Support - Onboarding and Practicals</title>
+<title>Welcome to Python Installation Support! – Python Installation Support - Onboarding and Practicals</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,7 +24,24 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
-<!-- htmldependencies:E3FAD763 -->
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-d1b12f2568ecbe55642fee6aa00bd082.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-b2511bcbb01c2159fd96a78deb42ffd9.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -57,42 +72,40 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<link rel="stylesheet" href="../styles.css" />
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="/index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Python Installation Support - Onboarding and Practicals</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-  aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation"
-  onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="/index.html"> 
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/contents/your-role.html"> 
+    <a class="nav-link" href="./contents/your-role.html"> 
 <span class="menu-text">Your Role in the Team</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/contents/introduction-process.html"> 
+    <a class="nav-link" href="./contents/introduction-process.html"> 
 <span class="menu-text">Introduction Process</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/contents/tools-practicals.html"> 
+    <a class="nav-link" href="./contents/tools-practicals.html"> 
 <span class="menu-text">Tools &amp; Practicals</span></a>
   </li>  
 </ul>
@@ -107,18 +120,24 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div id="quarto-toc-target"></div>
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#how-to-use-this-guide" id="toc-how-to-use-this-guide" class="nav-link active" data-scroll-target="#how-to-use-this-guide">How to Use This Guide</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
 </nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" ></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introduction Process</h1>
+<h1 class="title">Welcome to Python Installation Support!</h1>
 </div>
 
 
@@ -146,107 +165,38 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<nav id="TOC" role="doc-toc">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#getting-started" id="toc-getting-started">Getting Started</a>
-  <ul>
-  <li><a href="#accounts-access" id="toc-accounts-access">Accounts &amp; Access</a></li>
-  <li><a href="#key-meetings" id="toc-key-meetings">Key Meetings</a></li>
-  <li><a href="#required-training" id="toc-required-training">Required Training</a></li>
-  </ul></li>
-  <li><a href="#success-milestones" id="toc-success-milestones">Success Milestones</a>
-  <ul>
-  <li><a href="#after-30-days" id="toc-after-30-days">After 30 Days…</a></li>
-  </ul></li>
-  </ul>
-</nav>
-<hr />
-<section id="getting-started" class="level2">
-<h2>Getting Started</h2>
-<section id="accounts-access" class="level3">
-<h3>Accounts &amp; Access</h3>
-<p>You’ll need access to these essential systems:</p>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th>System</th>
-<th>Purpose</th>
-<th>Link</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Discord</strong></td>
-<td>Internal communication</td>
-<td><a href="https://discord.gg/CSp6xS22" target="_blank">Discord Server</a></td>
-</tr>
-<tr class="even">
-<td><strong>RT Ticketing</strong></td>
-<td>Ticket management</td>
-<td><a href="https://pythonsupport-rt.dtu.dk/rt/" target="_blank">RT System</a></td>
-</tr>
-<tr class="odd">
-<td><strong>SharePoint</strong></td>
-<td>Documents &amp; time registration</td>
-<td><a href="https://dtudk.sharepoint.com/:f:/r/sites/PythonInstallationSupport/Delte%20dokumenter/Students%20documents?csf=1&amp;web=1&amp;e=LVnQbU" target="_blank">Students documents</a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="key-meetings" class="level3">
-<h3>Key Meetings</h3>
-<div class="callout callout-style-default callout-important callout-titled">
+
+<p>We’re excited to have you on board. This guide is designed to help you get started smoothly, understand our support philosophy, tools, workflows, and key expectations.</p>
+<section id="how-to-use-this-guide" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-use-this-guide">How to Use This Guide</h2>
+<p>Use the top navigation bar to explore the three main sections of this onboarding guide:</p>
+<p><strong>Your Role in the Team</strong><br>
+Learn about your responsibilities, support workflow, documentation practices, and team values.</p>
+<p><strong>Introduction Process</strong><br>
+Get set up with essential accounts, information about key introduction meetings, and complete required training.</p>
+<p><strong>Tools &amp; Practicals</strong><br>
+Access daily tools, time registration systems, practical guidelines, and operational procedures.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class='callout-icon'></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Important Schedule
+Quick Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<ul>
-<li><strong>Team kick-off</strong> in August 2025</li>
-<li><strong>One-on-one</strong> with your direct manager</li>
-<li><strong>Team introductions</strong> with all members</li>
-</ul>
+<p>Each section can be downloaded as a complete PDF for later reference using the “Other formats” option in the top-right corner of any page.</p>
 </div>
 </div>
-</section>
-<section id="required-training" class="level3">
-<h3>Required Training</h3>
-<p>Before you start, you’ll complete training on:</p>
-<ul>
-<li>Product walkthrough (internal tools, user-facing systems)</li>
-<li>Using the ticketing system and Discord</li>
-<li>DTU FUSION time registration system setup and usage</li>
-</ul>
-</section>
-</section>
-<section id="success-milestones" class="level2">
-<h2>Success Milestones</h2>
-<section id="after-30-days" class="level3">
-<h3>After 30 Days…</h3>
-<p>By the end of your first month, you should be able to:</p>
-<ul>
-<li><strong>Confidently use all core tools</strong></li>
-<li><strong>Independently manage and resolve tickets</strong></li>
-<li><strong>Be familiar with team workflows</strong></li>
-<li><strong>Feel comfortable asking for help when needed</strong></li>
-</ul>
-<div id="quarto-navigation-envelope" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyLXRpdGxl">Python Installation Support - Onboarding and Practicals</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXItdGl0bGU=">Python Installation Support - Onboarding and Practicals</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6SG9tZQ==">Home</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2luZGV4Lmh0bWw=">/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6WW91ciBSb2xlIGluIHRoZSBUZWFt">Your Role in the Team</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2NvbnRlbnRzL3lvdXItcm9sZS5odG1s">/contents/your-role.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6SW50cm9kdWN0aW9uIFByb2Nlc3M=">Introduction Process</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2NvbnRlbnRzL2ludHJvZHVjdGlvbi1wcm9jZXNzLmh0bWw=">/contents/introduction-process.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6VG9vbHMgJiBQcmFjdGljYWxz">Tools &amp; Practicals</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2NvbnRlbnRzL3Rvb2xzLXByYWN0aWNhbHMuaHRtbA==">/contents/tools-practicals.html</span></p>
-</div>
-<div id="quarto-meta-markdown" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGF0aXRsZQ==">Introduction Process – Python Installation Support - Onboarding and Practicals</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=">Introduction Process – Python Installation Support - Onboarding and Practicals</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZHRpdGxl">Introduction Process – Python Installation Support - Onboarding and Practicals</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlbmFtZQ==">Python Installation Support - Onboarding and Practicals</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw=="></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZGRkZXNj"></span></p>
-</div>
-</section>
+<p><em>Want the complete guide in a single pdf? <a href="complete-guide.pdf">📄 Download PDF</a></em></p>
+<p><strong>Welcome to the team!</strong></p>
+
+
 </section>
 
 </main> <!-- /main -->
-<script id = "quarto-html-after-body" type="application/javascript">
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -809,6 +759,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 </div> <!-- /content -->
 
-</body>
 
-</html>
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
