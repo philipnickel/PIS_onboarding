@@ -24,6 +24,6 @@ Access daily tools, time registration systems, practical guidelines, and operati
 Each section can be downloaded as a complete PDF for later reference using the "Other formats" option in the top-right corner of any page. 
 :::
 
-*Want the complete guide in a single pdf? [📄 Download PDF](../complete-guide.pdf)*
+*Want the complete guide in a single pdf? [📄 Download PDF](complete-guide.pdf)*
 
 **Welcome to the team!**
